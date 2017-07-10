@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/mydate"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_bubble_blue"
+            android:text="May 29, 2017"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_bubble_gray"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:text="sen menin asmandagy jyldyzymsyn"
+                android:textColor="@android:color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="3dp"
+                android:text="May 29, 2017"
+                android:textSize="10dp" />
+
+
+            <ImageView
+                android:id="@+id/icon_clock"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/ic_access_time_black_24dp"
+                android:alpha="0.5"/>
+
+            <ImageView
+                android:id="@+id/icon_sent"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:alpha="0.5"
+                android:src="@drawable/ic_check_black_24dp" />
+
+
+            <ImageView
+                android:id="@+id/icon_second"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="-12dp"
+                android:src="@drawable/ic_check_black_24dp"
+                android:alpha="0.5" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

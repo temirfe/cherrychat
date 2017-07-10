@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "258770314685",
+    "firebase_url": "https://chattest-df89a.firebaseio.com",
+    "project_id": "chattest-df89a",
+    "storage_bucket": "chattest-df89a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258770314685:android:1aea49bb649499b7",
+        "android_client_info": {
+          "package_name": "kg.prosoft.chatqal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258770314685-r40gl0nv1t0hlf47k618347arcci9s3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnT_dR4wBsheyZN93ml7PlgeEPyYCvHVQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
